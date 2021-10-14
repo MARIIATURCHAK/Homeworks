@@ -1,4 +1,4 @@
-h1 {
+h1,h2 {
     background: #d5cece;
     text-align: center;
 }
@@ -10,17 +10,14 @@ img {
     border: 10px solid #1e533f;
     width: 400px;
 }
-h2 {
-    text-align: center;
-    color: #454141;
-}
 a {
     text-decoration: none;
     color: #53c499;
 }
-li {
-    background: #321834;
-}
+
 .target{
     color: #de8428;
+}
+ol {
+    background: #321834;
 }
