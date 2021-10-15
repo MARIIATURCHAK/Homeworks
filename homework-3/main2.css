@@ -1,0 +1,51 @@
+h2 {
+    color: #3298f2;
+}
+p {
+   text-align: justify;
+}
+.img {
+    display: flex;
+    justify-content: center;
+}
+.boss {
+    width: 1440px;
+    height: 800px;
+    border: 1px solid blue;
+}
+.father {
+    width: 1440px;
+    height: 500px;
+    margin: 0 auto;
+    background: #fcfcfc;
+    display: flex;
+}
+.one {
+    width: 50%;
+    background: #b3f5d7;
+}
+.two {
+    width: 50%;
+    background-color: #EDF4FB;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 100px;
+    justify-content: center;
+}
+.menu {
+    width: 50%;
+    margin: auto;
+background: #2669a5;
+}
+.mather {
+    text-align: center;
+}
+li {
+    text-decoration: none;
+    color: #3298f2;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 100px;
+    justify-content: center;
+}
