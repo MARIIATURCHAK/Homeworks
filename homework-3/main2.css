@@ -39,7 +39,6 @@ h3 {
     background-color: #EDF4FB;
     display: flex;
     flex-direction: column;
-    grid-row-gap: 100px;
     justify-content: center;
 }
 .menu {
