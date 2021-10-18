@@ -1,0 +1,40 @@
+.wrap {
+    width: 600px;
+    height: 800px;
+}
+.header {
+    background: #84837a;
+    width: 600px;
+    height: 150px;
+}
+.middle {
+    width: 600px;
+    height: 500px;
+    display: flex;
+}
+.menu {
+    background: #575444;
+    width: 200px;
+    height: 500px;
+}
+.right {
+    width: 400px;
+    height: 500px;
+    display: flex;
+flex-wrap: wrap;
+}
+.one {
+    background: #999789;
+}
+.two {
+    background: #45443e;
+}
+.post {
+    width: 400px;
+    height: 250px;
+}
+.fotter {
+    background: #3e3e3b;
+    width: 600px;
+    height: 150px;
+}
