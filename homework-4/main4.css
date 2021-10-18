@@ -1,0 +1,27 @@
+.wrap {
+    background: red;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.top {
+    background: #3298f2;
+    width: 800px;
+    height: 300px;
+}
+.bottom {
+    background: #321834;
+    display: flex;
+
+}
+.one {
+    background: #de8428;
+    width: 600px;
+    height: 300px;
+}
+.two {
+    background: #614b4b;
+    width: 200px;
+    height: 300px;
+}
