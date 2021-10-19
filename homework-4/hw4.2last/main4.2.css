@@ -1,0 +1,40 @@
+.wrap {
+    width: 500px;
+    height: 450px;
+}
+
+.header {
+    background: #53c499;
+    width: 500px;
+    height: 100px;
+}
+
+.nav {
+    background: #0d130f;
+    width: 500px;
+    height: 80px;
+}
+
+.middle {
+    width: 500px;
+    height: 190px;
+    display: flex;
+}
+
+.main {
+    background: #1e533f;
+    width: 320px;
+    height: 190px;
+}
+
+.aside {
+    background: #1e392e;
+    width: 180px;
+    height: 190px;
+}
+
+.footer {
+    background: #3e3e3b;
+    width: 500px;
+    height: 80px;
+}
