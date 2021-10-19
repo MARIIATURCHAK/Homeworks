@@ -1,0 +1,56 @@
+.wrap {
+    background: #3e2627;
+    width: 600px;
+    height: 800px;
+}
+
+.top {
+    background: #de8428;
+    width: 600px;
+    height: 400px;
+    display: flex;
+}
+
+.home {
+    background: #3298f2;
+    width: 300px;
+    height: 400px;
+}
+
+.about {
+    background: #16bf7a;
+    width: 300px;
+    height: 400px;
+}
+
+.bottom {
+    background: #6f877d;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kabobs {
+    background: #321834;
+    width: 600px;
+    height: 200px;
+}
+
+.shishkabobs {
+    background: #0d130f;
+    width: 200px;
+    height: 200px;
+}
+
+.bbqkabobs {
+    background: #249a50;
+    width: 200px;
+    height: 200px;
+}
+
+.summerkabobs {
+    background: #0a421a;
+    width: 200px;
+    height: 200px;
+}

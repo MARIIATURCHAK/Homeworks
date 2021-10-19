@@ -1,0 +1,49 @@
+.wrap {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top {
+    background: #53c499;
+    width: 600px;
+    height: 150px;
+}
+
+.middle {
+    width: 420px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom {
+    background: #1e392e;
+    width: 420px;
+    height: 160px;
+}
+
+.a {
+    background: #3298f2;
+    width: 140px;
+    height: 140px;
+}
+
+.b {
+    background: #341818;
+    width: 140px;
+    height: 140px;
+}
+
+.c {
+    background: #3e2627;
+    width: 140px;
+    height: 140px;
+}
+
+.right {
+    background: #447f65;
+    width: 180px;
+    height: 300px;
+}

@@ -1,0 +1,61 @@
+.wrap {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top {
+    background: #53c499;
+    width: 600px;
+    height: 150px;
+}
+
+.left {
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.a {
+    background: #16bf7a;
+    width: 150px;
+    height: 150px;
+}
+
+.b {
+    background: #000000;
+    width: 150px;
+    height: 150px;
+}
+
+.c {
+    background: #454141;
+    width: 150px;
+    height: 150px;
+}
+
+.d {
+    background: #de8428;
+    width: 150px;
+    height: 150px;
+}
+
+.e {
+    background: #537d43;
+    width: 150px;
+    height: 150px;
+}
+
+.f {
+    background: #16bf7a;
+    width: 150px;
+    height: 150px;
+}
+
+.right {
+    background: #2669a5;
+    width: 150px;
+    height: 300px;
+}
