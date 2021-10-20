@@ -1,0 +1,43 @@
+.card {
+    height: 800px;
+}
+.h150 {
+    height: 150px;
+}
+.w600 {
+    width: 600px;
+}
+.h500 {
+    height: 500px;
+}
+.background {
+    background: #84837a;
+}
+.card__middle {
+    display: flex;
+}
+.menu__light {
+    background: #575444;
+    width: 200px;
+
+}
+.menu__right {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.h400 {
+    height: 400px;
+}
+.w400 {
+    width: 400px;
+}
+.one {
+    background: #999789;
+}
+.two {
+    background: #45443e;
+}
+.post {
+    height: 250px;
+}
