@@ -1,0 +1,145 @@
+:root {
+    --blue: #062e50;
+    --aqua: #33a7a7;
+    --light:  #c2dbee;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 800px;
+}
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.soc-icon {
+    background: var(--aqua);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 25px;
+    column-gap: 5px;
+    list-style: none;
+}
+.soc-icon__link {
+    width: 50px;
+    height: 5px;
+    background: var(--blue);
+}
+.header__top {
+    padding: 10px 50px 20px;
+    background: var(--light);
+}
+.header__top_grid {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.header__logo {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background: var(--blue);
+}
+.nav__item {
+    display: inline-block;
+    margin-right: 15px;
+}
+.nav__item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.header__main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    padding: 80px;
+}
+.header__text {
+    width: 80%;
+    line-height: 24px;
+    text-align: center;
+}
+.header {
+    background: var(--aqua) ;
+}
+.header__main button {
+    margin-top: 25px;
+    background: var(--blue);
+    width: 200px;
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    cursor: help;
+    border: none;
+}
+.wrap {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.top {
+    width: 700px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.bottom {
+    width: 100%;
+    height: 300px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.w150 {
+    width: 150px;
+}
+.h120 {
+    height: 120px;
+}
+.h150 {
+    height: 150px;
+}
+.bg {
+    background: #062e50;
+}
+.bgblue {
+    background: #c2dbee;
+}
+.radius {
+    border-radius: 30px;
+}
+.main__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+.radius50 {
+    border-radius: 50%;
+}
+p {
+    text-align: center;
+}
+.br {
+    border: 1px solid #3298f2;
+}
+.info2 {
+    border: 1px solid #3298f2;
+    padding: 30px;
+}
