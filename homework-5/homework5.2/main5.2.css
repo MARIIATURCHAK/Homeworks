@@ -1,0 +1,32 @@
+.wrap {
+    width: 700px;
+    border: 5px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.bg {
+    background: #6f877d;
+}
+.mr {
+    margin-bottom: 5px;
+}
+.w500 {
+    width: 100%;
+}
+.h100 {
+    height: 100px;
+}
+.wrap__middle {
+    height: 250px;
+    display: flex;
+}
+.main {
+    width: 420px;
+    height: 100%;
+    margin-right: 5px;
+}
+.aside {
+    flex-grow: 1;
+    height: 100%;
+}
+
