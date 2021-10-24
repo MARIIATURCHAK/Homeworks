@@ -1,0 +1,60 @@
+@media screen and (max-width: 480px) {
+    .header__text {
+        width: 100%;
+    }
+
+    .header__main {
+        padding: 20px;
+    }
+
+    .header__title {
+        text-align: center;
+        font-size: 25px;
+    }
+    .header__text {
+        font-size: 20px;
+    }
+
+    .header__logo {
+        height: 40px;
+        width: 80px;
+    }
+
+    .products__list, .about__grid {
+        flex-direction: column;
+    }
+
+    .products__grid,
+    .about__card {
+        width: 100%;
+    }
+    .about__name {
+        font-size: 20px;
+    }
+    .about__description {
+        font-size: 15px;
+    }
+    .products__item p {
+        font-size: 15px;
+    }
+
+    .form__left, .form__right {
+        width: 100%;
+    }
+    .popular h2 {
+        font-size: 25px;
+    }
+    .footer {
+        height: 70px;
+    }
+
+    .menu__info {
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .menu__info_back {
+        height: 20px;
+    }
+}
