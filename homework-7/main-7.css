@@ -16,7 +16,6 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
 }
 
@@ -43,7 +42,6 @@ blockquote, q {
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
-    content: none;
 }
 
 table {
@@ -52,15 +50,15 @@ table {
 }
 
 .wrapper {
-    max-width: 1200px;
+    width: 1440px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 .header {
-    height: 100vh;
+    height: 1000px;
     background: url("../homework-7/image/bg.png") no-repeat center/cover;
-
+    position:  relative;
 }
 
 .header__top {
@@ -179,3 +177,36 @@ table {
     background: #FF7400;
     border-radius: 50px;
 }
+.header__wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -200px;
+    column-gap: 35px;
+}
+.header__introduce_item {
+    width: 349px;
+    height: 350px;
+    background: #FFFFFF;
+    box-shadow: 60px -15px 100px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 50px;
+}
+.header__introduce_item h2,
+.header__introduce_item p {
+    text-align: center;
+    font-size: 26px;
+    line-height: 30px;
+}
+.header__introduce_item h2 {
+    margin-bottom: 15px;
+}
+ .header__introduce_logo img {
+     margin-top: 60px;
+ }
+ h2 >span {
+     color: #BC9060;
+ }
