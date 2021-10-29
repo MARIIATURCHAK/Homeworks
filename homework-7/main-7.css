@@ -48,7 +48,6 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
 .wrapper {
     width: 1440px;
     margin: 0 auto;
@@ -58,7 +57,7 @@ table {
 .header {
     height: 1000px;
     background: url("../homework-7/image/bg.png") no-repeat center/cover;
-    position:  relative;
+    position: relative;
 }
 
 .header__top {
@@ -129,10 +128,12 @@ table {
     line-height: 57px;
     margin-left: 24px;
 }
+
 .header__title h1 {
-    font-size: 80px;
+    font-size: 75px;
     line-height: 92px;
 }
+
 .header__title p {
     font-size: 18px;
     line-height: 25px;
@@ -143,6 +144,7 @@ table {
     align-items: center;
     margin-top: 12px;
 }
+
 .header__title p::before, .header__title p::after {
     content: "";
     display: flex;
@@ -150,7 +152,8 @@ table {
     height: 2px;
     background: #c4c4c4;
 }
-.header__title p::before{
+
+.header__title p::before {
     margin-right: 10px;
 }
 
@@ -161,10 +164,12 @@ table {
 .header__main .header__button {
     margin-top: 35px;
 }
+
 .header__main_btn {
     display: flex;
     justify-content: center;
 }
+
 .nav__btn_mobile {
     display: none;
     flex-direction: column;
@@ -172,11 +177,13 @@ table {
     row-gap: 4px;
 
 }
+
 .nav__btn_mobile div {
     height: 3px;
     background: #FF7400;
     border-radius: 50px;
 }
+
 .header__wrap {
     width: 100%;
     display: flex;
@@ -185,6 +192,7 @@ table {
     bottom: -200px;
     column-gap: 35px;
 }
+
 .header__introduce_item {
     width: 349px;
     height: 350px;
@@ -195,18 +203,23 @@ table {
     align-items: center;
     column-gap: 50px;
 }
+
 .header__introduce_item h2,
 .header__introduce_item p {
     text-align: center;
     font-size: 26px;
     line-height: 30px;
 }
-.header__introduce_item h2 {
+
+.header__introduce_item>h2 {
     margin-bottom: 15px;
 }
- .header__introduce_logo img {
-     margin-top: 60px;
- }
- h2 >span {
-     color: #BC9060;
- }
+
+.header__introduce_logo img {
+    margin-top: 60px;
+}
+
+h2 > span {
+    color: #BC9060;
+}
+
