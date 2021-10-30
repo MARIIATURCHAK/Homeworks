@@ -1,0 +1,142 @@
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 0 auto;
+    width: 1920px;
+    height: 36px;
+    left: 0;
+    top: 0;
+    background: #0F2438;
+}
+
+.header__menu {
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu_left, .header__menu_right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.header__menu_left {
+    margin-left: 83px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+    background: none;
+    padding: 0;
+}
+
+.container-fluid {
+    padding-left: 160px;
+}
+
+.header__logo {
+    width: 1920px;
+    height: 196px;
+    left: 0;
+    top: 36px;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.header__logo-top {
+    display: flex;
+    height: 50%;
+    column-gap: 50px;
+    align-items: center;
+justify-content: center;
+}
+
+.logo-name {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0F2438;
+}
+
+.logo-discription {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0F2438;
+}
+
+.logo-block {
+    width: 168px;
+}
+
+.header_time {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.header_location {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.header_connection {
+    width: 204px;
+    height: 30px;
+    left: 1206px;
+    top: 82px;
+    background: #E1EFD0;
+    border-radius: 2px;
+
+}
+
+.phone {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0F2438;
+}
+
+.header_contact {
+
+}
+.phone_discription {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0F2438;
+
+}
+
+.header__logo-bottom {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    padding-left: 127px;
+}
+
+.collapse {
+    margin-left: 50px;
+}
+
+.container-fluid button {
+    width: 164px;
+}
+.form-control {
+    width: 450px;
+}
