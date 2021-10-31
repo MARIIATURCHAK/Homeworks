@@ -3,20 +3,13 @@
     margin: 0 auto;
 }
 
-.header {
-    margin: 0 auto;
+.header__menu {
     width: 1920px;
     height: 36px;
-    left: 0;
-    top: 0;
+    display: flex;
     background: #0F2438;
 }
 
-.header__menu {
-    height: 36px;
-    display: flex;
-    justify-content: space-between;
-}
 
 .header__menu_left, .header__menu_right {
     width: 50%;
@@ -25,9 +18,13 @@
 }
 
 .header__menu_left {
-    margin-left: 83px;
+    margin-left: 289px;
+    justify-content: flex-start;
 }
-
+.header__menu_right{
+    margin-right: 283px;
+    justify-content: flex-end;
+}
 .navbar-light .navbar-nav .nav-link.active {
     color: #FFFFFF;
 }
@@ -42,9 +39,7 @@
     padding: 0;
 }
 
-.container-fluid {
-    padding-left: 160px;
-}
+
 
 .header__logo {
     width: 1920px;
@@ -127,7 +122,7 @@ justify-content: center;
     display: flex;
     align-items: center;
     column-gap: 30px;
-    padding-left: 127px;
+    padding-left: 283px;
 }
 
 .collapse {
@@ -139,4 +134,69 @@ justify-content: center;
 }
 .form-control {
     width: 450px;
+}
+.layout__main_sale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caruosel {
+ margin: 0 auto;
+    width: 1350px;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+
+}
+.caruosel__item {
+    background: #FFFFFF;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 430px;
+    height: 194px;
+    display: flex;
+    margin: 50px 0 ;
+}
+.caruosel__button {
+    background: #005BB9;
+    border-radius: 4px;
+}
+.button_nav {
+    height: 55px;
+    padding-left: 283px;
+
+    column-gap: 20px;
+}
+.btn-light {
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+ .review {
+    color: #FFB800;
+}
+.product-wrap {
+justify-content: center;
+    column-gap: 35px;
+    margin: 35px;
+
+}
+.product-block-box {
+    width: 303px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.price {
+        text-decoration-line: underline;
+        color: #005BB9;
+    }
+.buy {
+    display: flex;
+    column-gap: 25px;
+}
+.footer {
+    height: 100px;
+    border-bottom: 7px solid #F5F5F5;
 }
