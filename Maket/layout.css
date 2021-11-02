@@ -1,6 +1,14 @@
+
+body {
+    background: #E5E5E5;
+}
+
 .container {
-    max-width: 1920px;
+    width: 1920px;
     margin: 0 auto;
+    padding: 0;
+    background: white;
+
 }
 
 .header__menu {
@@ -18,13 +26,15 @@
 }
 
 .header__menu_left {
-    margin-left: 289px;
+    margin-left: 232px;
     justify-content: flex-start;
 }
-.header__menu_right{
+
+.header__menu_right {
     margin-right: 283px;
     justify-content: flex-end;
 }
+
 .navbar-light .navbar-nav .nav-link.active {
     color: #FFFFFF;
 }
@@ -40,7 +50,6 @@
 }
 
 
-
 .header__logo {
     width: 1920px;
     height: 196px;
@@ -53,9 +62,9 @@
 .header__logo-top {
     display: flex;
     height: 50%;
-    column-gap: 50px;
+    column-gap: 47px;
     align-items: center;
-justify-content: center;
+    justify-content: center;
 }
 
 .logo-name {
@@ -77,7 +86,7 @@ justify-content: center;
 }
 
 .header_time {
-    width: 330px;
+    width: 285px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,14 +99,53 @@ justify-content: center;
     column-gap: 10px;
 }
 
+.container-fluid-button {
+    display: flex;
+
+}
+
+.btn-catalog {
+    height: 53px;
+    width: 164px;
+    border: none;
+    background: #005BB9;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+
 .header_connection {
-    width: 204px;
+    width: 234px;
     height: 30px;
-    left: 1206px;
-    top: 82px;
     background: #E1EFD0;
     border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+}
 
+.header_admission {
+    color: black;
+    column-gap: 15px;
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__item a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+}
+
+.header_connection > img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
 }
 
 .phone {
@@ -107,9 +155,6 @@ justify-content: center;
     color: #0F2438;
 }
 
-.header_contact {
-
-}
 .phone_discription {
     font-weight: 500;
     font-size: 12px;
@@ -121,7 +166,7 @@ justify-content: center;
 .header__logo-bottom {
     display: flex;
     align-items: center;
-    column-gap: 30px;
+    column-gap: 27px;
     padding-left: 283px;
 }
 
@@ -132,22 +177,27 @@ justify-content: center;
 .container-fluid button {
     width: 164px;
 }
+
 .form-control {
-    width: 450px;
+    width: 435px;
+    height: 53px;
 }
+
 .layout__main_sale {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .caruosel {
- margin: 0 auto;
+    margin: 0 auto;
     width: 1350px;
     display: flex;
     justify-content: center;
     column-gap: 25px;
 
 }
+
 .caruosel__item {
     background: #FFFFFF;
     border: 1px solid #E1E5F8;
@@ -156,47 +206,115 @@ justify-content: center;
     width: 430px;
     height: 194px;
     display: flex;
-    margin: 50px 0 ;
+    margin: 50px 0;
 }
+
 .caruosel__button {
+    border: none;
     background: #005BB9;
     border-radius: 4px;
 }
+
+.caruosel__description {
+    font-size: 16px;
+    Line-height: 24px;
+    color: #0A1A2C;
+    font-weight: 500;
+}
+
+.caruosel__main {
+    margin: 15px;
+}
+
 .button_nav {
     height: 55px;
-    padding-left: 283px;
-
+    padding-left: 300px;
     column-gap: 20px;
 }
+
 .btn-light {
     border: 2px solid #005BB9;
     box-sizing: border-box;
     border-radius: 6px;
 }
- .review {
+
+.review {
     color: #FFB800;
 }
+
 .product-wrap {
-justify-content: center;
+    justify-content: center;
     column-gap: 35px;
     margin: 35px;
 
 }
+
 .product-block-box {
     width: 303px;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
+
 .price {
-        text-decoration-line: underline;
-        color: #005BB9;
-    }
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+
 .buy {
     display: flex;
     column-gap: 25px;
+    align-items: center;
 }
+
 .footer {
     height: 100px;
     border-bottom: 7px solid #F5F5F5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+    .container {width: 320px;
+        padding: 0 10px;
+    }
+.header__menu_right {
+    display: none;
+}
+ .header__menu_left {
+     justify-content: flex-start;
+ }
 }
