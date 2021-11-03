@@ -16,7 +16,7 @@ body {
     display: flex;
     background: #0F2438;
     justify-content: space-between;
-    padding-right: 230px;
+    padding-right: 150px;
     padding-left: 230px;
 }
 
@@ -54,7 +54,7 @@ body {
 .header__logo-top {
     display: flex;
     height: 50%;
-    column-gap: 47px;
+    column-gap: 55px;
     align-items: center;
     justify-content: center;
 }
@@ -77,18 +77,26 @@ body {
     width: 168px;
 }
 
+.connection {
+    column-gap: 30px;
+    align-items: center;
+}
+
 .header_time {
     width: 285px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     column-gap: 10px;
 }
 
 .header_location {
-    display: flex;
     align-items: center;
     column-gap: 10px;
+}
+
+.container-fluid {
+    display: flex;
+    column-gap: 5px;
 }
 
 .container-fluid-button {
@@ -157,9 +165,10 @@ body {
 
 .header__logo-bottom {
     display: flex;
+    justify-content: center;
     align-items: center;
-    column-gap: 27px;
-    padding-left: 283px;
+    column-gap: 25px;
+
 }
 
 .collapse {
