@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
     padding: 0;
     background: white;
@@ -12,10 +12,12 @@ body {
 }
 
 .header__menu {
-    width: 1920px;
     height: 36px;
     display: flex;
     background: #0F2438;
+    justify-content: space-between;
+    padding-right: 230px;
+    padding-left: 230px;
 }
 
 
@@ -25,15 +27,6 @@ body {
     display: flex;
 }
 
-.header__menu_left {
-    margin-left: 232px;
-    justify-content: flex-start;
-}
-
-.header__menu_right {
-    margin-right: 283px;
-    justify-content: flex-end;
-}
 
 .navbar-light .navbar-nav .nav-link.active {
     color: #FFFFFF;
@@ -51,7 +44,6 @@ body {
 
 
 .header__logo {
-    width: 1920px;
     height: 196px;
     left: 0;
     top: 36px;
@@ -307,14 +299,4 @@ body {
 
 
 
-@media screen and (max-width: 320px) {
-    .container {width: 320px;
-        padding: 0 10px;
-    }
-.header__menu_right {
-    display: none;
-}
- .header__menu_left {
-     justify-content: flex-start;
- }
-}
+
