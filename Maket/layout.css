@@ -66,11 +66,12 @@ body {
     color: #0F2438;
 }
 
-.logo-discription {
+.logo-description {
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
     color: #0F2438;
+
 }
 
 .logo-block {
@@ -143,9 +144,19 @@ body {
 }
 
 .header_connection > img {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 12px;
     margin-right: 5px;
+}
+
+.btn-search {
+    background: #005BB9;
+    width: 165px;
+    border-radius: 0 6px 6px 0;
+}
+
+.btn-search div {
+    color: #FFFFFF;
 }
 
 .phone {
@@ -155,13 +166,6 @@ body {
     color: #0F2438;
 }
 
-.phone_discription {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
-    color: #0F2438;
-
-}
 
 .header__logo-bottom {
     display: flex;
@@ -171,17 +175,20 @@ body {
 
 }
 
+.logo-media {
+    column-gap: 20px;
+}
+
 .collapse {
     margin-left: 50px;
 }
 
-.container-fluid button {
-    width: 164px;
-}
 
 .form-control {
+    background: #F4F5FA;;
     width: 435px;
     height: 53px;
+    border-radius: 6px 0 0 6px;
 }
 
 .layout__main_sale {
@@ -228,16 +235,28 @@ body {
 }
 
 .button_nav {
-    height: 55px;
+display: flex;
     padding-left: 300px;
     column-gap: 20px;
 }
 
-.btn-light {
+.btn__nav_pr {
+    width: 224px;
+    height: 55px;
+    background: #005BB9;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.btn__nav_lt, .btn__nav_lt2 {
+    height: 55px;
     border: 2px solid #005BB9;
     box-sizing: border-box;
     border-radius: 6px;
+    font-size: 20px;
 }
+
 
 .review {
     color: #FFB800;
