@@ -1,5 +1,236 @@
 @media screen and  (max-width: 320px) {
-    .header__menu_right, .header__menu_right {
-        display: none;
+    .header {
+        width: 320px;
+    }
+
+    .header__menu {
+        padding: 0;
+    }
+
+    .header__menu_left {
+        display: block;
+    }
+
+    .collapse {
+        margin-left: 0;
+    }
+
+    .xxx {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        align-items: center;
+        width: 150px;
+    }
+
+
+    .header__logo-bottom {
+        height: 50%;
+    }
+
+    .logo-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-top: 3px;
+    }
+
+    .logo-name {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+
+    .header__logo-top {
+        align-items: center;
+        column-gap: 5px;
+        padding: 0 5px;
+    }
+
+    .logo-discription {
+        font-size: 8px;
+        line-height: 10px;
+
+    }
+
+    .header_connection {
+        width: 150px;
+        height: 12px;
+    }
+
+    .header_connection-discription {
+        font-size: 10px;
+    }
+
+    .header__logo-top img {
+        width: 47px;
+        height: 48px;
+
+    }
+
+    .logo-media {
+        width: 49%;
+    }
+
+    .connection {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        width: 49%;
+    }
+
+    .phone {
+        font-size: 14px;
+    }
+
+    .phone_discription {
+        font-size: 9px;
+
+    }
+
+    .form-control {
+        width: 210px;
+        height: 39px;
+    }
+
+    .container-fluid {
+        padding: 0;
+        column-gap: 15px;
+    }
+
+    .container-fluid-button {
+        width: 39px;
+        height: 39px;
+    }
+
+
+    .header_connection > img {
+        width: 9px;
+        height: 8px;
+        margin-right: 5px;
+    }
+
+    .btn-catalog {
+        height: 39px;
+        width: 39px;
+    }
+
+    .btn-search {
+        border-radius: 0 4px 4px 0;
+        width: 39px;
+        height: 39px;
+    }
+
+    .layout__main_sale {
+
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+    .product__block_description {
+        font-size: 15px;
+    }
+
+
+    .sale__left > img {
+        margin: 10px;
+        width: 300px;
+        height: 165px;
+
+    }
+
+    .sale__right {
+        display: flex;
+    }
+
+    .sale__right img {
+        padding-left: 10px;
+        width: 250px;
+        height: 145px;
+    }
+
+    .caruosel {
+        width: 320px;
+        justify-content: flex-start;
+        padding-left: 10px;
+        overflow: hidden;
+    }
+
+    .caruosel__item {
+        width: 250px;
+        height: 126px;
+    }
+
+    .caruosel__item h2 {
+        font-size: 15px;
+        left: 19px;
+
+    }
+
+    .caruosel__item p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .caruosel__item img {
+        width: 74px;
+        height: 97px;
+        margin: 15px 10px;
+    }
+
+    .button_nav2{
+        padding-left: 10px;
+        column-gap: 10px;
+        overflow: hidden;
+    }
+
+    .selections {
+        width: 181px;
+        height: 36px;
+        font-size: 10px;
+        line-heigh: 13px;
+    }
+    .stock {
+        width: 83px;
+        height: 36px;
+        font-size: 10px;
+        line-heigh: 13px;
+    }
+    .now_buying {
+        width: 129px;
+        height: 36px;
+        font-size: 10px;
+        line-heigh: 13px;
+    }
+
+
+
+
+    .product-wrap {
+    padding: 10px 10px;
+    }
+    .product-block-box {
+        width: 130px;
+    }
+    .product-block-box > img {
+        width: 123px;
+        height: 85px;
+    }
+    .product-cart div {
+        font-size: 15px;
+    }
+    .buy button {
+        width: 80px;
+        height: 35px;
+        font-size: 10px;
+    }
+    .buy {
+        column-gap: 5px;
+    }
+    .buy img {
+        width: 13px;
+        height: 13px;
     }
 }
+
+
