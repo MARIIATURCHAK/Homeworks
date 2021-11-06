@@ -128,7 +128,7 @@
         overflow: hidden;
     }
     .product__block_description {
-        font-size: 15px;
+        font-size: 13px;
     }
 
 
@@ -185,22 +185,19 @@
     }
 
     .selections {
-        width: 181px;
         height: 36px;
         font-size: 10px;
-        line-heigh: 13px;
+        line-height: 13px;
     }
     .stock {
-        width: 83px;
         height: 36px;
         font-size: 10px;
-        line-heigh: 13px;
+        line-height: 13px;
     }
     .now_buying {
-        width: 129px;
         height: 36px;
         font-size: 10px;
-        line-heigh: 13px;
+        line-height: 13px;
     }
 
 
@@ -230,6 +227,23 @@
     .buy img {
         width: 13px;
         height: 13px;
+    }
+    .news {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .footer__news {
+        margin: 10px;
+    }
+    ul > li {
+        font-size: 16px;
+    }
+    .footer__news_description {
+        font-size: 12px;
+        height: 90px;
     }
 }
 
