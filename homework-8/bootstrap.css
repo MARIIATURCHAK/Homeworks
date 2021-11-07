@@ -1,9 +1,4 @@
 
-
-
-
-
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -75,14 +70,17 @@ table {
     column-gap: 23px;
 }
 
-.nav__item a {
+.nav-item a {
     font-weight: bold;
     font-size: 14px;
     line-height: 19px;
     color: #FFFFFF;
     text-decoration: none;
 }
-
+.nav__item img {
+    width: 20px;
+    height: 20px;
+}
 .header__menu {
     display: flex;
     align-items: center;
@@ -105,18 +103,6 @@ table {
     color: #FFFFFF;
     width: 155px;
 
-}
-
-.header__button {
-    width: 167px;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 19px;
-    color: #FFFFFF;
-    padding: 0 19px;
-    height: 52px;
-    background: #FF7400;
-    border: none;
 }
 
 .header__title {
@@ -164,16 +150,11 @@ table {
     margin-left: 10px;
 }
 
-.header__main .header__button {
+.header__main {
     margin-top: 35px;
 }
 
-.header__main_btn {
-    justify-content: center;
-}
-
 .nav__btn_mobile {
-    display: none;
     flex-direction: column;
     width: 35px;
     row-gap: 4px;
@@ -190,8 +171,8 @@ table {
     width: 100%;
     justify-content: center;
     position: absolute;
-    bottom: -200px;
-    column-gap: 35px;
+    bottom: 350px;
+    column-gap: 80px;
 }
 
 .header__introduce_item {
@@ -199,10 +180,10 @@ table {
     height: 350px;
     background: #FFFFFF;
     box-shadow: 60px -15px 100px gray;
-    display: flex;
     flex-direction: column;
     align-items: center;
     column-gap: 50px;
+
 }
 
 .header__introduce_item h2,

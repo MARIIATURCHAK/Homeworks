@@ -18,61 +18,72 @@
     <div class="header__top wrapper d-flex">
         <div class="header__logo"><img src="ima/LOGO.png" alt="Logo"></div>
         <div class="header__menu ">
-            <nav class="nav d-flex">
-                <div class="nav__item"><a href="#">ГОЛОВНА</a></div>
-                <div class="nav__item"><a href="#">МЕНЮ</a></div>
-                <div class="nav__item"><a href="#">ПРО НАС</a></div>
-                <div class="nav__item"><a href="#">БРОНЮВАННЯ</a></div>
-                <div class="nav__item"><a href="#"><img src="ima/cart.png" alt="Shoping-card"> </a></div>
-            </nav>
-            <div class="header__contact">
-                <div class="header__phone">
-                    <img src="ima/phone.png" alt="Phone">+999-888-76-54
-                    <p>Зв'яжіться із нами для бронювання</p>
-                </div>
-                <button class="header__button">ЗАМОВЛЕННЯ СТОЛИКА</button>
-            </div>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">ГЛАВНАЯ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">МЕНЮ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">О НАС</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">БРОНЬ</a>
+                </li>
+            </ul>
+            <div class="nav__item"><a href="#"><img src="ima/korz.png" alt="Shoping-card"> </a></div>
         </div>
-        <div class="nav__btn_mobile">
+
+        <div class="header__contact d-xl-flex d-none">
+            <div class="header__phone">
+                <img src="ima/phone.png" alt="Phone">+999-888-76-54
+                <p>Зв'яжіться із нами для бронювання</p>
+            </div>
+            <button type="button" class="btn btn-warning">ЗАКАЗ СТОЛИКА</button>
+        </div>
+        <div class="nav__btn_mobile d-xl-none d-flex">
             <div></div>
             <div></div>
             <div></div>
         </div>
     </div>
-
     <div class="header__main wrapper">
         <div class="header__title">
             <h2>Ласкаво просимо в</h2>
             <h1>Наш ресторан</h1>
             <p class="d-flex">БУДИНОК НАЙКРАЩОЇ ЇЖІ</p>
-            <div class="header__main_btn d-flex">
-                <button class="header__button">VIEW MENU</button>
+            <div class="header__main_btn d-flex justify-content-center">
+                <button type="button" class="btn btn-warning">VIEW MENU</button>
+
             </div>
         </div>
     </div>
+</div>
 
-    <div class="header__wrap wrapper d-flex">
-        <div class="header__introduce_item">
-            <div class="header__introduce_logo"><img src="ima/Mask%20Group.png" alt="Plate"></div>
-            <h2>Магічна <span>Атмосфера</span></h2>
-            <p>У нашому закладі панує магічна атмосфера
-                наповнена смачними ароматами</p>
-        </div>
 
-        <div class="header__introduce_item">
-            <div class="header__introduce_logo"><img src="ima/Mask%20Group.png" alt="Plate"></div>
-            <h2>Найкраща якість <span>їжі</span></h2>
-            <p>Якість нашої
-                Їжі - чудове!</p>
-        </div>
+<div class="header__wrap wrapper d-flex">
+    <div class="header__introduce_item d-flex">
+        <div class="header__introduce_logo"><img src="ima/Mask%20Group.png" alt="Plate"></div>
+        <h2>Магічна <span>Атмосфера</span></h2>
+        <p>У нашому закладі панує магічна атмосфера
+            наповнена смачними ароматами</p>
+    </div>
 
-        <div class="header__introduce_item">
-            <div class="header__introduce_logo"><img src="ima/Mask%20Group.png" alt="Plate"></div>
-            <h2>Недорога <span>Їжа</span></h2>
-            <p>Вартість нашої їжі залежить тільки від неї кількості. Якість завжди на висоті!</p>
-        </div>
+    <div class="header__introduce_item d-flex">
+        <div class="header__introduce_logo"><img src="ima/Mask%20Group.png" alt="Plate"></div>
+        <h2>Найкраща якість <span>їжі</span></h2>
+        <p>Якість нашої
+            Їжі - чудове!</p>
+    </div>
+
+    <div class="header__introduce_item d-flex">
+        <div class="header__introduce_logo"><img src="ima/Mask%20Group.png" alt="Plate"></div>
+        <h2>Недорога <span>Їжа</span></h2>
+        <p>Вартість нашої їжі залежить тільки від неї кількості. Якість завжди на висоті!</p>
     </div>
 </div>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
