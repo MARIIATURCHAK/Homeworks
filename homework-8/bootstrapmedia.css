@@ -43,9 +43,7 @@
 
     .header__wrap {
         flex-direction: column;
-        bottom:-800px;
-
-
+        bottom: -900px;
     }
 
     .header__introduce_item {
