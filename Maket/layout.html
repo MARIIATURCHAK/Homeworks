@@ -25,8 +25,8 @@
                             </div>
                             <ul class="navbar-nav">
                                 <li class="nav-item d-flex">
-                                    <a class="nav-link active xxx" aria-current="page" href="#">Ваш город: Москва</a>
-                                    <a class="nav-link dropdown-toggle d-block d-xl-none xxx" href="#"
+                                    <a class="nav-link active more" aria-current="page" href="#">Ваш город: Москва</a>
+                                    <a class="nav-link dropdown-toggle d-block d-xl-none more" href="#"
                                        id="navbarDropdownMenuLink5"
                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Еще
@@ -117,7 +117,7 @@
                         <h2 class="logo-name">
                             AVT-ZAP
                         </h2>
-                        <p class="logo-discription ">
+                        <p class="logo-description ">
                             Интернет-магазин запчастей
                             для АКПП
                         </p>
@@ -136,34 +136,36 @@
                 <div class="connection d-xl-flex">
                     <div class="header_connection d-flex">
                         <img src="image/whatsapp%20(2)%201.png" alt="whatsapp">
-                        <div class="header_connection-discription">Напишите нам в WhatsApp</div>
+                        <div class="header_connection-description">Напишите нам в WhatsApp</div>
                     </div>
                     <div class="header_contact">
                         <div class="header_phone">
                             <div class="phone">+7 383 291 92 86</div>
-                            <p class="phone_discription">форма обратной связи</p>
+                            <p class="phone_description">форма обратной связи</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <div>
 
+            </div>
             <div class="header__logo-bottom">
                 <nav class="navbar navbar-expand navbar-light">
                     <div class="container-fluid">
                         <div class="container-fluid-button">
                             <button type="button" class="btn-catalog ">
                                 <img src="image/каталог.png" alt="catalog">
-                                <div class="d-none d-xl-flex">Каталог</div>
+                                <span class="d-none d-xl-flex justify-content-center mb-0">Каталог</span>
                             </button>
 
                         </div>
                         <div class="collapse navbar-collapse show" id="navbarLight">
                             <form class="d-flex">
-                                <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                                <input class="form-control " type="search"
+                                       placeholder="Поиск по наименованию или артикулу" aria-label="Search">
                                 <button class="btn-search">
-                                    <div class="d-xl-block d-none">Найти</div>
-                                    <div class="d-xl-none d-block ">
-                                        <img src="image/search%20(2)%201.png" alt="search"></div>
+                                    <span class="search d-xl-block d-none">Найти</span>
+                                    <span class="d-xl-none d-block"><img src="image/search%20(2)%201.png" alt="search"></span>
                                 </button>
                             </form>
                         </div>
@@ -191,8 +193,6 @@
             </div>
         </div>
     </div>
-
-
     <div class="layout__main">
         <div class="layout__main_sale">
             <div class="sale__left">
@@ -207,54 +207,47 @@
                 </div>
             </div>
         </div>
-        <div class="caruosel">
-            <div class="caruosel__item">
-                <div class="caruosel__main">
-                    <h2 class="caruosel__title">Масла</h2>
-                    <p class="caruosel__description">Трансмиссионное масло;
+        <div class="carousel">
+            <div class="carousel__item">
+                <div class="carousel__main">
+                    <h2 class="carousel__title">Масла</h2>
+                    <p class="carousel__description">Трансмиссионное масло;
                         присалка в масло акпп</p>
-                    <button class="caruosel__button">Перейти</button>
+                    <button class="carousel__button">Перейти</button>
                 </div>
                 <div><img src="image/oil.png" alt="oil"></div>
             </div>
-            <div class="caruosel__item">
-                <div class="caruosel__main">
-                    <h2 class="caruosel__title">Фильтры</h2>
-                    <p class="caruosel__description">Масляный фильтр;
+            <div class="carousel__item">
+                <div class="carousel__main">
+                    <h2 class="carousel__title">Фильтры</h2>
+                    <p class="carousel__description">Масляный фильтр;
                         фильтр воздушный</p>
-                    <button class="caruosel__button">Перейти</button>
+                    <button class="carousel__button">Перейти</button>
                 </div>
                 <div><img src="image/filt.png" alt="filter"></div>
             </div>
-            <div class="caruosel__item">
-                <div class="caruosel__main">
-                    <h2 class="caruosel__title">Радиаторы</h2>
-                    <p class="caruosel__description">Дополнительные
+            <div class="carousel__item">
+                <div class="carousel__main">
+                    <h2 class="carousel__title">Радиаторы</h2>
+                    <p class="carousel__description">Дополнительные
                         радиаторы</p>
-                    <button class="caruosel__button">Перейти</button>
+                    <button class="carousel__button">Перейти</button>
                 </div>
                 <div><img src="image/radiat.png" alt="Boiler"></div>
             </div>
-
-
         </div>
-
-
         <div class="button_nav2 d-flex">
             <button class="selections">Подборки товаров</button>
             <button class="stock">Акции</button>
             <button class="now_buying">Сейчас покупают</button>
         </div>
-
-
         <div class="product-wrap d-flex">
-
             <div class="product-block-box">
-                <img src="image/avt-zap_main_page_v01%20(1)йцу%2012.png" alt="accumelator">
+                <img src="image/avt-zap_main_page_v01%20(1)йцу%2012.png" alt="accumlator">
                 <div class="product-cart">
                     <div><img src="image/Star%202.png" alt="star"><span class="review">4.5</span> 10 отзывов</div>
                 </div>
-                <div class="product__block_description">Intermediate accumelator sleeve</div>
+                <div class="product__block_description">Intermediate accumulator sleeve</div>
                 <div class="product-card__price">ЦЕНА <span class="price">по запросу</span></div>
                 <div class="buy">
                     <button type="button" class="btn btn-primary">В корзину</button>
@@ -262,7 +255,6 @@
                     <img src="image/market-fluctuation%201.png" alt="diagram">
                 </div>
             </div>
-
             <div class="product-block-box">
                 <img src="image/zap%20r.png" alt="disk">
                 <div class="product-cart">
@@ -277,13 +269,12 @@
                     <img src="image/market-fluctuation%201.png" alt="Diagram">
                 </div>
             </div>
-
             <div class="product-block-box">
-                <img src="image/avt-zap_main_page_v01%20(1)йцу%2012.png" alt="accumelator">
+                <img src="image/avt-zap_main_page_v01%20(1)йцу%2012.png" alt="accumulator">
                 <div class="product-cart">
                     <div><img src="image/Star%202.png" alt="star"><span class="review">4.5</span> 10 отзывов</div>
                 </div>
-                <div class="product__block_description">Intermediate accumelator sleeve</div>
+                <div class="product__block_description">Intermediate accumulator sleeve</div>
                 <div class="product-card__price">ЦЕНА <span class="price">по запросу</span></div>
                 <div class="buy">
                     <button type="button" class="btn btn-primary">В корзину</button>
@@ -291,13 +282,12 @@
                     <img src="image/market-fluctuation%201.png" alt="diagram">
                 </div>
             </div>
-
             <div class="product-block-box">
-                <img src="image/det.png" alt="accumelator">
+                <img src="image/det.png" alt="accumulator">
                 <div class="product-cart">
                     <div><img src="image/Star%202.png" alt="star"><span class="review">4.5</span> 10 отзывов</div>
                 </div>
-                <div class="product__block_description">Intermediate accumelator sleeve</div>
+                <div class="product__block_description">Intermediate accumulator sleeve</div>
                 <div class="product-card__price">ЦЕНА <span class="price">по запросу</span></div>
                 <div class="buy">
                     <button type="button" class="btn btn-primary">В корзину</button>
@@ -305,13 +295,12 @@
                     <img src="image/market-fluctuation%201.png" alt="diagram">
                 </div>
             </div>
-
             <div class="product-block-box ">
-                <img src="image/avt-zap_main_page_v01%20(1)йцу%2012.png" alt="accumelator">
+                <img src="image/avt-zap_main_page_v01%20(1)йцу%2012.png" alt="accumulator">
                 <div class="product-cart">
                     <div><img src="image/Star%202.png" alt="star"><span class="review">4.5</span> 10 отзывов</div>
                 </div>
-                <div class="product__block_description">Intermediate accumelator sleeve</div>
+                <div class="product__block_description">Intermediate accumulator sleeve</div>
                 <div class="product-card__price">ЦЕНА <span class="price">по запросу</span></div>
                 <div class="buy">
                     <button type="button" class="btn btn-primary">В корзину</button>
@@ -319,7 +308,6 @@
                     <img src="image/market-fluctuation%201.png" alt="Diagram">
                 </div>
             </div>
-
             <div class="product-block-box">
                 <img src="image/zap%20r.png" alt="disk">
                 <div class="product-cart">
@@ -333,13 +321,12 @@
                     <img src="image/market-fluctuation%201.png" alt="Diagram">
                 </div>
             </div>
-
             <div class="product-block-box">
-                <img src="image/avt-zap_main_page_v01%20(1)йцу%2012.png" alt="accumelator">
+                <img src="image/avt-zap_main_page_v01%20(1)йцу%2012.png" alt="accumulator">
                 <div class="product-cart">
                     <div><img src="image/Star%202.png" alt="star"><span class="review">4.5</span> 10 отзывов</div>
                 </div>
-                <div class="product__block_description">Intermediate accumelator sleeve</div>
+                <div class="product__block_description">Intermediate accumulator sleeve</div>
                 <div class="product-card__price">ЦЕНА <span class="price">по запросу</span></div>
                 <div class="buy">
                     <button type="button" class="btn btn-primary">В корзину</button>
@@ -347,13 +334,12 @@
                     <img src="image/market-fluctuation%201.png" alt="diagram">
                 </div>
             </div>
-
             <div class="product-block-box">
-                <img src="image/det.png" alt="accumelator">
+                <img src="image/det.png" alt="accumulator">
                 <div class="product-cart">
                     <div><img src="image/Star%202.png" alt="star"><span class="review">4.5</span> 10 отзывов</div>
                 </div>
-                <div class=class="product__block_description">Intermediate accumelator sleeve</div>
+                <div class="product__block_description">Intermediate accumulator sleeve</div>
                 <div class="product-card__price">ЦЕНА <span class="price">по запросу</span></div>
                 <div class="buy">
                     <button type="button" class="btn btn-primary">В корзину</button>
@@ -361,82 +347,160 @@
                     <img src="image/market-fluctuation%201.png" alt="diagram">
                 </div>
             </div>
-
         </div>
-
-
         <div class="d-flex justify-content-center">
             <button type="button" class="show_more">Показать еще</button>
         </div>
-
     </div>
     <div class="news">НОВОСТИ</div>
     <div class="footer">
+        <div class="footer__top">
+            <div class="footer__news">
+                <div class="footer__news_column">
+                    <div class="footer__news_block">3 ноября</div>
+                    <ul>
+                        <li><a href="">Изменения на сайте</a></li>
+                    </ul>
+                    <p class="footer__news_description">Недавно на сайте мы ввели
+                        очередную порцию изменений,
+                        которые, как нам кажется, должны
+                        улучшить функциональность сайта
+                        и сделать его более удобным для
+                        пользователей. Реакция посетителей
+                        не заставила себя долго ждать...</p>
+                </div>
+            </div>
 
-        <div class="footer__news">
-            <div class="footer__news_column">
-                <div class="footer__news_block">3 ноября</div>
-                <ul>
-                    <li><a href="">Изменения на сайте</a></li>
-                </ul>
-                <p class="footer__news_description">Недавно на сайте мы ввели
-                    очередную порцию изменений,
-                    которые, как нам кажется, должны
-                    улучшить функциональность сайта
-                    и сделать его более удобным для
-                    пользователей. Реакция посетителей
-                    не заставила себя долго ждать...</p>
+            <div class="footer__news">
+                <div class="footer__news_column">
+                    <div class="footer__news_block">2 ноября</div>
+                    <ul>
+                        <li><a href="">Вышла новая версия для
+                            мобильных приложений</a></li>
+                    </ul>
+                    <p class="footer__news_description">
+                        Что нового в 2.0:<br>
+                        — добавлена история поиска;<br>
+                        — добавлена синхронизация с сервером;<br>
+                        — испрвление ошибок.</p>
+                </div>
+            </div>
+
+            <div class="footer__news">
+                <div class="footer__news_column">
+                    <div class="footer__news_block">1 ноября</div>
+                    <ul>
+                        <li><a href="">Очередная порция обновлений для
+                            мобильных приложений</a></li>
+                    </ul>
+                    <p class="footer__news_description">Что нового добавлено:<br>
+                        — поддержка пуш-уведомлений;<br>
+                        — разделы для покупателей;<br>
+                        — просмотр покупателя в заказах;<br>
+                        — возможность поиска;<br>
+                        — исправление ошибок.</p>
+                </div>
+            </div>
+
+            <div class="footer__news">
+                <div class="footer__news_column">
+                    <div class="footer__news_block">31 октября</div>
+                    <ul>
+                        <li><a href="">Интерфейс заказов для покупателей
+                            стал более функциональным</a></li>
+                    </ul>
+                    <p class="footer__news_description">Он позволяет выводить все
+                        формируемые системой
+                        уведомления(e-mail, смс, web) в
+                        едином окне с системой удобной
+                        фильтрации поиска.</p>
+                </div>
             </div>
         </div>
-
-        <div class="footer__news">
-            <div class="footer__news_column">
-                <div class="footer__news_block">2 ноября</div>
-                <ul>
-                    <li><a href="">Вышла новая версия для
-                        мобильных приложений</a></li>
-                </ul>
-                <p class="footer__news_description">
-                    Что нового в 2.0:
-                    — добавлена история поиска;
-                    — добавлена синхронизация с сервером;
-                    — испрвление ошибок.</p>
+        <div class="footer__bottom">
+            <div class="container__section">
+                <div class="section">
+                    <h3 class="section_tittle">КАТАЛОГ</h3>
+                    <ul class="section_list">
+                        <li><a href="#">Каталог запчастей</a></li>
+                        <li><a href="#">Масла</a></li>
+                        <li><a href="#">Фильтра</a></li>
+                        <li><a href="#">Радиаторы</a></li>
+                        <li><a href="#">Sonnax</a></li>
+                        <li><a href="#">Manual</a></li>
+                        <li><a href="#">Новинки</a></li>
+                        <li><a href="#">Акции</a></li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h3 class="section_tittle">РУБРИКАТОР</h3>
+                    <ul class="section_list">
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Гарантия</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Журнал</a></li>
+                        <li><a href="#">О магазине</a></li>
+                        <li><a href="#">Контактная информация</a></li>
+                    </ul>
+                </div>
+                <div class="section">
+                    <h3 class="section_tittle">ИНФОРМАЦИЯ</h3>
+                    <ul class="section_list">
+                        <li><a href="#">Пользовательское соглашение
+                            об использовании персональных данных</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Соглашение на рассылку
+                            рекламных материалов</a></li>
+                        <li><a href="#">Политика возвратов</a></li>
+                    </ul>
+                    <div>
+                        <p class="mr">Мы принимаем</p>
+                        <img src="image/cart%20viza.png" alt="cart">
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="footer__news">
-            <div class="footer__news_column">
-                <div class="footer__news_block">1 ноября</div>
-                <ul>
-                    <li><a href="">Очередная порция обновлений для
-                        мобильных приложений</a></li>
-                </ul>
-                <p class="footer__news_description">Что нового добавлено:
-                    — поддержка пуш-уведомлений;
-                    — разделы для покупателей;
-                    — просмотр покупателя в заказах;
-                    — возможность поиска;
-                    — исправление ошибок.</p>
+            <div class="container__info ">
+                <div class="section wrap__info">
+                    <div class="info_contact">
+                        <h3 class="section_tittle">КОНТАКТЫ</h3>
+                        <p class="mb-0">+7 383 291 92 86</p>
+                        <p>info@avt-zap.ru</p>
+                    </div>
+                    <div class="info_address">
+                        <h3 class="section_tittle">АДРЕС</h3>
+                        <p>г. Новосибирск,
+                            ул. Планировочная, 5, офис 105</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <h3>Мы онлайн, воспользуйтесь</h3>
+                    <p>Форма обратной связи</p>
+                </div>
+                <h3 class="subscribe">Подпишитесь на нашу расслыку и
+                    вы первыми узнаете о скидках и акциях</h3>
+                <div class="collapse navbar-collapse show subscribe__button" id="navbarLight1">
+                    <form class="d-flex">
+                        <input class="form-control bg" type="search" placeholder="Введите ваш email"
+                               aria-label="Search">
+                        <button class="btn-search">
+                            <span class="search d-xl-block d-none">Подписаться</span>
+                            <span class="d-xl-none d-block"><img src="image/search%20(2)%201.png" alt="search"></span>
+                        </button>
+                    </form>
+                </div>
+                <div class="icons">
+                    <img src="image/fb.png" alt="Facebook icon">
+                    <img src="image/tg.png" alt="Telegram icon">
+                    <img src="image/tw.png" alt="Twitter icon">
+                    <img src="image/google-plus%201.png" alt="Google plus icon">
+                </div>
             </div>
-        </div>
-
-        <div class="footer__news">
-            <div class="footer__news_column">
-                <div class="footer__news_block">31 октября</div>
-                <ul>
-                    <li><a href="">Интерфейс заказов для покупателей
-                        стал более функциональным</a></li>
-                </ul>
-                <p class="footer__news_description">Он позволяет выводить все
-                    формируемые системой
-                    уведомления(e-mail, смс, web) в
-                    едином окне с системой удобной
-                    фильтрации поиска.</p>
+            <div class="copyright">
+                <p>2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p>
             </div>
-
         </div>
     </div>
-
 
 
 </div>

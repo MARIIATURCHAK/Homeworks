@@ -15,7 +15,7 @@
         margin-left: 0;
     }
 
-    .xxx {
+    .more {
         font-weight: 500;
         font-size: 12px;
         line-height: 14px;
@@ -47,7 +47,7 @@
         padding: 0 5px;
     }
 
-    .logo-discription {
+    .logo-description {
         font-size: 8px;
         line-height: 10px;
 
@@ -58,7 +58,7 @@
         height: 12px;
     }
 
-    .header_connection-discription {
+    .header_connection-description {
         font-size: 10px;
     }
 
@@ -83,7 +83,7 @@
         font-size: 14px;
     }
 
-    .phone_discription {
+    .phone_description {
         font-size: 9px;
 
     }
@@ -127,6 +127,7 @@
         justify-content: flex-start;
         overflow: hidden;
     }
+
     .product__block_description {
         font-size: 13px;
     }
@@ -149,101 +150,167 @@
         height: 145px;
     }
 
-    .caruosel {
+    .carousel {
         width: 320px;
         justify-content: flex-start;
         padding-left: 10px;
         overflow: hidden;
     }
 
-    .caruosel__item {
+    .carousel__item {
         width: 250px;
         height: 126px;
     }
 
-    .caruosel__item h2 {
+    .carousel__item h2 {
         font-size: 15px;
         left: 19px;
 
     }
 
-    .caruosel__item p {
+    .carousel__item p {
         font-size: 10px;
         line-height: 14px;
     }
 
-    .caruosel__item img {
+    .carousel__item img {
         width: 74px;
         height: 97px;
         margin: 15px 10px;
     }
 
-    .button_nav2{
+    .button_nav2 {
         padding-left: 10px;
         column-gap: 10px;
         overflow: hidden;
     }
 
     .selections {
+        min-width: 124px;
         height: 36px;
         font-size: 10px;
         line-height: 13px;
     }
+
     .stock {
+        min-width: 82px;
         height: 36px;
         font-size: 10px;
         line-height: 13px;
     }
+
     .now_buying {
+        min-width: 156px;
         height: 36px;
         font-size: 10px;
         line-height: 13px;
     }
-
-
 
 
     .product-wrap {
-    padding: 10px 10px;
+        padding: 10px 10px;
     }
+
     .product-block-box {
         width: 130px;
     }
+
     .product-block-box > img {
         width: 123px;
         height: 85px;
     }
+
     .product-cart div {
         font-size: 15px;
     }
+
     .buy button {
         width: 80px;
         height: 35px;
         font-size: 10px;
     }
+
     .buy {
         column-gap: 5px;
     }
+
     .buy img {
         width: 13px;
         height: 13px;
     }
+
     .news {
         padding: 10px;
         font-size: 16px;
     }
-    .footer {
+
+    .show_more {
+        width: 160px;
+        height: 34px;
+        margin: 10px;
+    }
+
+    .footer__top {
         flex-direction: column;
     }
+
     .footer__news {
         margin: 10px;
     }
+
     ul > li {
         font-size: 16px;
     }
+
     .footer__news_description {
         font-size: 12px;
         height: 90px;
+    }
+
+    .footer__bottom {
+        padding-left: 10px;
+    }
+
+    .container__section {
+        display: block;
+    }
+
+    .section_tittle {
+        font-size: 14px;
+        line-height: 16px;
+
+    }
+
+    .wrap__info {
+        display: block;
+        max-width: 159px;
+    }
+
+    .section p, .copyright {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .back {
+        display: block;
+    }
+
+    .back h3, .subscribe {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .back p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .icons {
+        justify-content: flex-start;
+    }
+
+    .icons img {
+        margin: 25px;
     }
 }
 

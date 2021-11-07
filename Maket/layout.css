@@ -172,8 +172,15 @@ body {
     justify-content: center;
     align-items: center;
     column-gap: 25px;
-
 }
+
+.search {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
 
 .logo-media {
     column-gap: 20px;
@@ -197,7 +204,7 @@ body {
     align-items: center;
 }
 
-.caruosel {
+.carousel {
     margin: 0 auto;
     width: 1350px;
     display: flex;
@@ -206,7 +213,7 @@ body {
 
 }
 
-.caruosel__item {
+.carousel__item {
     background: #FFFFFF;
     border: 1px solid #E1E5F8;
     box-sizing: border-box;
@@ -217,32 +224,34 @@ body {
     margin: 50px 0;
 }
 
-.caruosel__button {
+.carousel__button {
     border: none;
     background: #005BB9;
     border-radius: 4px;
 }
 
-.caruosel__description {
+.carousel__description {
     font-size: 16px;
     Line-height: 24px;
     color: #0A1A2C;
     font-weight: 500;
 }
 
-.caruosel__main {
+.carousel__main {
     margin: 15px;
 }
 
 .review {
     color: #FFB800;
 }
+
 .button_nav2 {
     display: flex;
     column-gap: 35px;
     padding-left: 300px;
 
 }
+
 .selections {
     width: 241px;
     height: 55px;
@@ -253,6 +262,7 @@ body {
     color: #FFFFFF;
     border: none;
 }
+
 .stock {
     width: 123px;
     height: 55px;
@@ -263,6 +273,7 @@ body {
     line-height: 25px;
     color: #005BB9;
 }
+
 .now_buying {
     width: 229px;
     height: 55px;
@@ -278,7 +289,7 @@ body {
     justify-content: center;
     column-gap: 35px;
     flex-wrap: wrap;
-    padding:  30px 300px;
+    padding: 30px 300px;
     row-gap: 15px;
 
 }
@@ -294,18 +305,22 @@ body {
     text-decoration-line: underline;
     color: #005BB9;
 }
+
 .product-block-box > img {
     width: 303px;
     height: 255px;
 }
+
 .buy {
     display: flex;
     column-gap: 25px;
     align-items: center;
 }
+
 .line {
     text-decoration-line: line-through;
 }
+
 .show_more {
     width: 187px;
     height: 49px;
@@ -316,6 +331,7 @@ body {
     margin-bottom: 10px;
 
 }
+
 .news {
     padding: 0 0 15px 300px;
     font-weight: 500;
@@ -323,15 +339,18 @@ body {
     line-height: 28px;
     color: #000000;
 }
-.footer {
+
+.footer__top {
     display: flex;
     justify-content: center;
     border-top: 7px solid #F5F5F5;
 }
+
 .footer__news {
     width: 295px;
     margin: 25px;
 }
+
 .footer__news_block {
     width: 106px;
     height: 22px;
@@ -344,9 +363,8 @@ body {
     text-align: center;
 
 }
+
 .footer__news_description {
-    width: 294px;
-    height: 140px;
     font-size: 18px;
     line-height: 20px;
     color: #242424;
@@ -358,12 +376,137 @@ ul > li {
     line-height: 19px;
     color: #005BB9;
 }
+
 .footer ul {
     padding-left: 0;
     margin: 16px 0;
 }
 
+.footer__bottom {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 120px;
+    flex-wrap: wrap;
+    padding-left: 295px;
+    background: #0C1A2A;
+}
 
+.section {
+    max-width: 276px;
+    column-gap: 45px;
+}
+
+.container__section {
+    display: flex;
+    padding-top: 20px;
+    column-gap: 105px;
+
+}
+
+.container__info {
+    padding-top: 20px;
+}
+
+.section_tittle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+}
+
+.section_list li {
+    margin-bottom: 10px;
+}
+
+.section_list a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.mr {
+    margin-top: 40px;
+}
+
+.wrap__info {
+    display: flex;
+}
+
+.section p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.information__wrap {
+    column-gap: 25px;
+}
+
+.info_contact {
+    min-width: 140px;
+}
+
+.info_address {
+    min-width: 240px;
+}
+
+.back {
+    display: flex;
+}
+
+.back h3 {
+    width: 240px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #858CAB;
+}
+
+.container__info p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.subscribe {
+    width: 343px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #858CAB;
+}
+
+.subscribe__button {
+    margin: 15px 0;
+    width: 450px;
+    height: 40px;
+}
+
+.bg {
+    background: none;
+    border: 1px solid #203246;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons img {
+    margin: 30px;
+}
+
+.copyright {
+    font-size: 16px;
+    line-height: 20px;
+    color: #737E9B;
+}
 
 
 
