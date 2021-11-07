@@ -1,6 +1,7 @@
 @media screen and  (max-width: 320px) {
-    .header {
-        width: 320px;
+    .container {
+        max-width: 320px;
+        /*overflow: hidden;*/
     }
 
     .header__menu {
@@ -204,6 +205,9 @@
         height: 36px;
         font-size: 10px;
         line-height: 13px;
+    }
+    .container__info {
+        overflow: hidden;
     }
 
 
